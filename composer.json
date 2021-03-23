@@ -4,7 +4,7 @@
     "require": {
         "php": "7.*",
         "magento/framework": "*",
-        "webgriffe/module-bootstrap-menu": "^1.0"
+        "webgriffe/module-bootstrap-menu": "dev-master"
     },
     "type": "magento2-theme",
     "version": "1.0.0",
