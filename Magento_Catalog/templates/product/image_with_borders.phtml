@@ -9,7 +9,7 @@
 <span class="product-image-container">
     <span class="product-image-wrapper">
         <img class="product-image-photo img-responsive"
-            <?php /* @escapeNotVerified */ echo $block->getCustomAttributes(); ?>
+            <?php /* @escapeNotVerified */ /* FIXME array to string conversion error : echo $block->getCustomAttributes(); */ ?>
              src="<?php /* @escapeNotVerified */ echo $block->getImageUrl(); ?>"
              width="<?php /* @escapeNotVerified */ echo $block->getResizedImageWidth(); ?>"
              height="<?php /* @escapeNotVerified */ echo $block->getResizedImageHeight(); ?>"
